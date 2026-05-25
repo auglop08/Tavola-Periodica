@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F4F6F5;
+    padding: 20px;
+}
+
+h1 {
+    width: 1435px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #2E3833;
+}
+
+#tavola-periodica {
+    display: grid;
+    grid-template-columns: repeat(18, 75px);
+    grid-template-rows: repeat(10, 55px);
+    gap: 5px;
+}
+
+#menu {
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 12px 16px;
+    grid-column: 4 / span 8;
+    grid-row: 1 / span 3;
+}
+
+#infoelemento h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #02033B;
+}
+
+#infoelemento p {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #2E3833;
+}
+
+.element-image {
+    height: 125px;
+}
+
+.bottone-elemento {
+    font-size: 11px;
+    font-family: sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px 2px;
+    line-height: 1.4;
+}
+
+.bottone-elemento:hover {
+    transform: scale(1.15);
+}
+
+.non-metallo          { background-color: #2e7d4f; }
+.gas-nobile           { background-color: #5c3d8f; }
+.metallo-blocco-d     { background-color: #1a5276; }
+.metallo-blocco-p     { background-color: #117a65; }
+.alcalino             { background-color: #922b21; }
+.alcalino-terroso     { background-color: #784212; }
+.semi-metallo         { background-color: #1a6b5e; }
+.alogeno              { background-color: #1a5e20; }
+.lantanide            { background-color: #6c3483; }
+.attinide             { background-color: #7b241c; }
