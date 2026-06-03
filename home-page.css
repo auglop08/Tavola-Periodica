@@ -82,7 +82,7 @@ h1 {
 .attinide             { background-color: #7b241c; }
 
 .autore {
-    text-align: right;
+    text-align: left;
     font-size: 15px;
     line-height: 2;
     color: #2E3833;
@@ -91,7 +91,7 @@ h1 {
 
 }
 .crediti {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     color: #2E3833;
 }
